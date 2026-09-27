@@ -1,0 +1,2 @@
+timestamp_iso,unix_s,monotonic_s,cpu_temp_c,throttled,disk_free_mb,ntp_synced,wall_minus_mono_s,clock_step_s,scd_ok,scd_err,scd_reinits,ngm_ok,ngm_unparsed,ngm_reconnects
+2026-09-26T20:56:55.234-05:00,1790474215.235,5.598,38.6,0x50000,112827,no,1790474209.637,,0,0,0,0,0,0
