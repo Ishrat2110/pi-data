@@ -1,0 +1,6 @@
+timestamp_iso,unix_s,monotonic_s,level,source,message
+2026-09-26T21:13:07.994-05:00,1790475187.994,5.033,INFO,main,"start host=amiraspi run_dir=/home/ishrat/data/run_20260926_211307 ntp_synced=no args={'outdir': '/home/ishrat/data', 'ngm_port': '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00', 'scd_interval': 2, 'duration': 0, 'no_scd': False, 'no_ngm': False}"
+2026-09-26T21:13:08.121-05:00,1790475188.121,5.160,INFO,ngm1,port opened /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00
+2026-09-26T21:13:08.161-05:00,1790475188.162,5.200,INFO,scd30,init ok fw=3.66 interval=2s asc=OFF
+2026-09-26T21:13:08.197-05:00,1790475188.197,5.236,INFO,scd30,first sample after start discarded (stale buffer)
+2026-09-28T11:35:38.919-05:00,1790613338.920,65.211,WARN,clock,wall clock stepped +138090.748 s relative to monotonic
