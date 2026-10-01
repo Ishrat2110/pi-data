@@ -1,0 +1,84 @@
+# Pi watchdog: catches the one failure the Pi cannot report itself (Pi off, frozen,
+# or offline). The Pi rewrites STATUS.md on every sync (every 10 min). If GitHub has
+# not received a new STATUS.md for STALE_MIN minutes, or STATUS.md lists alerts, this
+# opens one issue assigned to you (GitHub emails you) and, if the NTFY_TOPIC secret is
+# set, pushes to your phone. It closes the issue and sends a RECOVERED push when the
+# Pi is healthy again. Runs hourly (about 720 of the 2,000 free Actions minutes/month).
+#
+# Author: Ishrat Jandu
+
+name: Pi watchdog
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: pi-watchdog
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      STALE_MIN: 30
+      LABEL: pi-watchdog
+      GH_TOKEN: ${{ github.token }}
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      OWNER: ${{ github.repository_owner }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 30
+
+      - name: Check the Pi
+        shell: bash
+        run: |
+          set -uo pipefail
+          now=$(date +%s)
+          last=$(git log -1 --format=%ct -- STATUS.md 2>/dev/null)
+          last=${last:-0}
+          age_min=$(( (now - last) / 60 ))
+          problem=""
+          if [ "$last" = "0" ] || [ ! -f STATUS.md ]; then
+            problem="STATUS.md not found on GitHub. The Pi has never synced with the v2 script."
+          elif [ "$age_min" -gt "$STALE_MIN" ]; then
+            problem="No sync from the Pi for ${age_min} min (last: $(date -u -d "@$last" '+%Y-%m-%d %H:%M UTC')). The Pi is off, frozen, or offline."
+          elif ! grep -q '\*\*Alerts: none\*\*' STATUS.md; then
+            alerts=$(sed -n '/\*\*Alerts:\*\*/,/^| Item/p' STATUS.md | grep '^- ' | head -n 10)
+            problem="STATUS.md reports alerts:"$'\n'"${alerts}"
+          fi
+
+          gh label create "$LABEL" --color B60205 --description "Opened by the Pi watchdog" --force >/dev/null 2>&1 || true
+          open=$(gh issue list --label "$LABEL" --state open --json number --jq '.[0].number // empty')
+
+          push() {  # title priority tags body
+            [ -n "${NTFY_TOPIC:-}" ] || return 0
+            curl -fsS -m 20 -H "Title: $1" -H "Priority: $2" -H "Tags: $3" --data-binary "$4" "https://ntfy.sh/$NTFY_TOPIC" >/dev/null || echo "ntfy push failed"
+          }
+
+          if [ -n "$problem" ]; then
+            echo "PROBLEM: $problem"
+            if [ -z "$open" ]; then
+              body=$(printf '%s\n\n%s\n\n%s\n' "$problem" \
+                "Checks on the Pi (over Tailscale): \`tail -n 20 ~/gaslogger/sync.log\`, \`cat ~/gasdata-repo/STATUS.md\`, \`vcgencmd get_throttled\`." \
+                "This issue closes itself when the Pi is healthy again.")
+              gh issue create --title "Pi watchdog: $(head -n1 <<<"$problem" | cut -c1-90)" --body "$body" --label "$LABEL" --assignee "$OWNER" \
+                || gh issue create --title "Pi watchdog: $(head -n1 <<<"$problem" | cut -c1-90)" --body "$body" --label "$LABEL"
+              push "Pi watchdog: problem" 4 warning "$problem"
+            else
+              echo "Issue #$open already open, not opening another."
+            fi
+          else
+            echo "OK: last sync ${age_min} min ago, no alerts."
+            if [ -n "$open" ]; then
+              gh issue close "$open" --comment "Recovered: last sync ${age_min} min ago, no alerts ($(date -u '+%Y-%m-%d %H:%M UTC'))."
+              push "Pi watchdog: recovered" 3 white_check_mark "The Pi is syncing again with no alerts. Issue #$open closed."
+            fi
+          fi
