@@ -1,0 +1,3 @@
+timestamp_iso,unix_s,monotonic_s,seq,adc_code,uo_mv,module_temp_c,status,module_c_pct_unused,parsed,dup,raw_line
+2026-10-01T21:50:21.391-05:00,1790909421.391,296147.682,1,-697,-21.3,40,0,0.78,1,0,"ADC Code: -697,  C: 0.78%, Uo:  -21.3mV, T:  40C, S:0"
+2026-10-01T21:50:42.396-05:00,1790909442.396,296168.687,2,-696,-21.3,40,0,0.75,1,0,"ADC Code: -696,  C: 0.75%, Uo:  -21.3mV, T:  40C, S:0"
