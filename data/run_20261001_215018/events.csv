@@ -181,3 +181,7 @@ timestamp_iso,unix_s,monotonic_s,level,source,message
 2026-10-04T05:08:24.478-05:00,1791108504.478,495230.769,INFO,scd30,first sample after start discarded (stale buffer)
 2026-10-04T06:32:13.484-05:00,1791113533.484,500259.775,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
 2026-10-04T07:19:07.337-05:00,1791116347.337,503073.628,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-10-04T07:37:04.746-05:00,1791117424.747,504151.038,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-10-04T07:37:06.281-05:00,1791117426.281,504152.572,WARN,scd30,"read error 2: TimeoutError(110, 'Connection timed out')"
+2026-10-04T07:37:07.817-05:00,1791117427.817,504154.108,WARN,scd30,"read error 3: TimeoutError(110, 'Connection timed out')"
+2026-10-04T07:37:09.353-05:00,1791117429.353,504155.644,WARN,scd30,"read error 4: TimeoutError(110, 'Connection timed out')"
