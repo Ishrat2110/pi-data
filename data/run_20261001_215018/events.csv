@@ -134,3 +134,4 @@ timestamp_iso,unix_s,monotonic_s,level,source,message
 2026-10-03T22:01:39.723-05:00,1791082899.723,469626.014,INFO,scd30,soft reset sent
 2026-10-03T22:01:39.776-05:00,1791082899.776,469626.067,INFO,scd30,init ok fw=3.66 interval=2s asc=OFF
 2026-10-03T22:01:39.903-05:00,1791082899.904,469626.195,INFO,scd30,first sample after start discarded (stale buffer)
+2026-10-03T22:54:46.124-05:00,1791086086.124,472812.415,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
