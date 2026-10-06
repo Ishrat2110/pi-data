@@ -1,6 +1,6 @@
 # amiraspi status
 
-Last check: **2026-10-05T19:01:10-05:00**
+Last check: **2026-10-05T19:11:11-05:00**
 
 This file is rewritten by the Pi on every sync (every 10 min). If the time above is more than about 20 minutes old, the Pi has stopped syncing.
 
@@ -9,9 +9,9 @@ This file is rewritten by the Pi on every sync (every 10 min). If the time above
 | Item | State | Detail |
 |---|---|---|
 | Logger service | active | gaslogger.service |
-| SCD30 (CO2, T, RH) | OK | last write 1s ago |
-| NGM-1 (CH4) | OK | last write 20s ago |
+| SCD30 (CO2, T, RH) | OK | last write 0s ago |
+| NGM-1 (CH4) | OK | last write 11s ago |
 | Current run | | run_20261001_215018 |
-| Previous successful push | | 2026-10-05T18:51:12-05:00 (9 min ago) |
+| Previous successful push | | 2026-10-05T19:01:14-05:00 (9 min ago) |
 | Previous push error | | none |
-| Disk free | | 105699 MB |
+| Disk free | | 105695 MB |
