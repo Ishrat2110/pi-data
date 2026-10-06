@@ -366,3 +366,16 @@ timestamp_iso,unix_s,monotonic_s,level,source,message
 2026-10-06T08:46:34.711-05:00,1791294394.711,681121.002,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
 2026-10-06T09:25:55.738-05:00,1791296755.739,683482.030,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
 2026-10-06T09:54:27.044-05:00,1791298467.044,685193.335,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-10-06T10:29:08.821-05:00,1791300548.821,687275.112,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-10-06T10:29:10.345-05:00,1791300550.345,687276.636,WARN,scd30,"read error 2: TimeoutError(110, 'Connection timed out')"
+2026-10-06T10:29:11.881-05:00,1791300551.881,687278.172,WARN,scd30,"read error 3: TimeoutError(110, 'Connection timed out')"
+2026-10-06T10:29:13.417-05:00,1791300553.417,687279.708,WARN,scd30,"read error 4: TimeoutError(110, 'Connection timed out')"
+2026-10-06T10:29:14.953-05:00,1791300554.953,687281.244,WARN,scd30,"read error 5: TimeoutError(110, 'Connection timed out')"
+2026-10-06T10:29:14.964-05:00,1791300554.965,687281.255,ERROR,scd30,"5 consecutive errors, re-initializing"
+2026-10-06T10:29:16.489-05:00,1791300556.489,687282.780,ERROR,scd30,"init failed (1): TimeoutError(110, 'Connection timed out')"
+2026-10-06T10:29:22.505-05:00,1791300562.505,687288.796,ERROR,scd30,"init failed (2): TimeoutError(110, 'Connection timed out')"
+2026-10-06T10:29:27.515-05:00,1791300567.516,687293.807,WARN,scd30,attempting I2C bus recovery
+2026-10-06T10:29:28.592-05:00,1791300568.592,687294.883,INFO,scd30,"bus recovery rc=0: recovered, 0x61 answering [idle SDA=0 SCL=1 | pulses=1 after SDA=1 SCL=1 | 0x61 present]"
+2026-10-06T10:29:30.602-05:00,1791300570.603,687296.894,INFO,scd30,soft reset sent
+2026-10-06T10:29:30.655-05:00,1791300570.656,687296.947,INFO,scd30,init ok fw=3.66 interval=2s asc=OFF
+2026-10-06T10:29:30.782-05:00,1791300570.782,687297.073,INFO,scd30,first sample after start discarded (stale buffer)
