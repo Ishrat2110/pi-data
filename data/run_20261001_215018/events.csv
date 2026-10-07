@@ -401,3 +401,17 @@ timestamp_iso,unix_s,monotonic_s,level,source,message
 2026-10-06T17:49:23.490-05:00,1791326963.491,713689.781,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
 2026-10-06T18:31:14.161-05:00,1791329474.161,716200.452,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
 2026-10-06T19:27:17.105-05:00,1791332837.105,719563.396,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-10-06T19:35:06.678-05:00,1791333306.678,720032.969,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-10-06T19:35:08.201-05:00,1791333308.201,720034.492,WARN,scd30,"read error 2: TimeoutError(110, 'Connection timed out')"
+2026-10-06T19:35:09.737-05:00,1791333309.737,720036.028,WARN,scd30,"read error 3: TimeoutError(110, 'Connection timed out')"
+2026-10-06T19:35:11.273-05:00,1791333311.273,720037.564,WARN,scd30,"read error 4: TimeoutError(110, 'Connection timed out')"
+2026-10-06T19:35:12.809-05:00,1791333312.809,720039.100,WARN,scd30,"read error 5: TimeoutError(110, 'Connection timed out')"
+2026-10-06T19:35:12.818-05:00,1791333312.819,720039.109,ERROR,scd30,"5 consecutive errors, re-initializing"
+2026-10-06T19:35:14.345-05:00,1791333314.345,720040.636,ERROR,scd30,"init failed (1): TimeoutError(110, 'Connection timed out')"
+2026-10-06T19:35:20.361-05:00,1791333320.361,720046.652,ERROR,scd30,"init failed (2): TimeoutError(110, 'Connection timed out')"
+2026-10-06T19:35:25.372-05:00,1791333325.373,720051.663,WARN,scd30,attempting I2C bus recovery
+2026-10-06T19:35:26.448-05:00,1791333326.449,720052.739,INFO,scd30,"bus recovery rc=0: recovered, 0x61 answering [idle SDA=0 SCL=1 | pulses=1 after SDA=1 SCL=1 | 0x61 present]"
+2026-10-06T19:35:28.458-05:00,1791333328.458,720054.749,INFO,scd30,soft reset sent
+2026-10-06T19:35:28.512-05:00,1791333328.512,720054.803,INFO,scd30,init ok fw=3.66 interval=2s asc=OFF
+2026-10-06T19:35:28.638-05:00,1791333328.639,720054.929,INFO,scd30,first sample after start discarded (stale buffer)
+2026-10-06T19:40:46.589-05:00,1791333646.589,720372.880,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
