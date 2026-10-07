@@ -416,3 +416,4 @@ timestamp_iso,unix_s,monotonic_s,level,source,message
 2026-10-06T19:35:28.638-05:00,1791333328.639,720054.929,INFO,scd30,first sample after start discarded (stale buffer)
 2026-10-06T19:40:46.589-05:00,1791333646.589,720372.880,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
 2026-10-06T20:36:35.670-05:00,1791336995.671,723721.961,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-10-06T21:02:24.228-05:00,1791338544.229,725270.520,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
