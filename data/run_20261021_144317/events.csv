@@ -61,3 +61,5 @@ timestamp_iso,unix_s,monotonic_s,level,source,message
 2026-10-23T11:55:12.131-05:00,1792774512.131,162320.209,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
 2026-10-23T11:55:12.644-05:00,1792774512.645,162320.722,WARN,scd30,"read error 2: OSError(121, 'Remote I/O error')"
 2026-10-23T12:47:12.367-05:00,1792777632.368,165440.446,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-10-23T13:09:02.316-05:00,1792778942.316,166750.394,INFO,main,"signal SIGTERM received, stopping"
+2026-10-23T13:09:02.807-05:00,1792778942.808,166750.886,INFO,main,stop scd_ok=78000 scd_err=56 scd_reinits=0 scd_bus_recoveries=0 ngm_ok=7938 ngm_unparsed=0 ngm_reconnects=0 ntp_synced=unknown
