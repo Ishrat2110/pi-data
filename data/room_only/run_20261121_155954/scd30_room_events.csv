@@ -1,0 +1,10 @@
+iso_local,unix_s,monotonic_s,level,event,detail
+2026-11-21T15:59:54.516-06:00,1795298394.517,57.698,INFO,start,iface=i2c bus=3 interval_s=2 pid=1741
+2026-11-21T15:59:55.354-06:00,1795298395.354,58.536,ERROR,init_failed,attempt 1: [Errno 6] No such device or address
+2026-11-21T15:59:55.363-06:00,1795298395.363,58.545,WARN,reinit,sensor not initialised
+2026-11-21T15:59:56.198-06:00,1795298396.198,59.380,ERROR,init_failed,attempt 2: [Errno 6] No such device or address
+2026-11-21T16:00:06.208-06:00,1795298406.208,69.390,WARN,reinit,sensor not initialised
+2026-11-21T16:00:07.050-06:00,1795298407.050,70.232,ERROR,init_failed,attempt 3: [Errno 6] No such device or address
+2026-11-21T16:00:22.059-06:00,1795298422.059,85.241,WARN,reinit,sensor not initialised
+2026-11-21T16:00:22.898-06:00,1795298422.898,86.080,ERROR,init_failed,attempt 4: [Errno 6] No such device or address
+2026-11-21T16:00:42.908-06:00,1795298442.908,106.090,INFO,stop,samples=0 errors=0 reinits=3 recoveries=0

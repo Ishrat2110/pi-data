@@ -1,0 +1,28 @@
+timestamp_iso,unix_s,monotonic_s,level,source,message
+2026-11-21T15:47:57.642-06:00,1795297677.643,11.256,INFO,main,"start host=amiraspi run_dir=/home/ishrat/data/run_20261121_154757 ntp_synced=no args={'outdir': '/home/ishrat/data', 'ngm_port': '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00', 'scd_interval': 2, 'duration': 0, 'no_scd': False, 'no_ngm': False, 'no_bus_recovery': False}"
+2026-11-21T15:47:57.921-06:00,1795297677.922,11.535,INFO,scd30,bus recovery available (sudo rule ok)
+2026-11-21T15:47:57.996-06:00,1795297677.997,11.610,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:47:58.042-06:00,1795297678.042,11.656,INFO,scd30,init ok fw=3.66 interval=2s asc=OFF
+2026-11-21T15:47:58.067-06:00,1795297678.068,11.681,INFO,scd30,first sample after start discarded (stale buffer)
+2026-11-21T15:48:03.006-06:00,1795297683.006,16.620,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:48:08.052-06:00,1795297688.052,21.666,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:48:13.096-06:00,1795297693.096,26.710,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:48:18.105-06:00,1795297698.106,31.719,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:48:23.114-06:00,1795297703.115,36.728,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:02.419-06:00,1795298102.420,41.737,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:07.434-06:00,1795298107.434,46.752,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:12.438-06:00,1795298112.438,51.756,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:17.447-06:00,1795298117.447,56.765,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:22.457-06:00,1795298122.458,61.775,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:27.462-06:00,1795298127.462,66.779,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:32.321-06:00,1795298132.321,71.638,WARN,clock,wall clock stepped +394.296 s relative to monotonic
+2026-11-21T15:55:32.472-06:00,1795298132.473,71.790,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:37.482-06:00,1795298137.483,76.800,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:40.069-06:00,1795298140.070,79.387,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-11-21T15:55:40.581-06:00,1795298140.581,79.898,WARN,scd30,"read error 2: OSError(121, 'Remote I/O error')"
+2026-11-21T15:55:41.090-06:00,1795298141.091,80.408,WARN,scd30,"read error 3: OSError(121, 'Remote I/O error')"
+2026-11-21T15:55:41.602-06:00,1795298141.603,80.920,WARN,scd30,"read error 4: OSError(121, 'Remote I/O error')"
+2026-11-21T15:55:42.113-06:00,1795298142.114,81.431,WARN,scd30,"read error 5: OSError(121, 'Remote I/O error')"
+2026-11-21T15:55:42.123-06:00,1795298142.123,81.441,ERROR,scd30,"5 consecutive errors, re-initializing"
+2026-11-21T15:55:42.494-06:00,1795298142.494,81.811,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:42.628-06:00,1795298142.628,81.945,ERROR,scd30,"init failed (1): OSError(121, 'Remote I/O error')"

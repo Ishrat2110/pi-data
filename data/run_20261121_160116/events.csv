@@ -1,0 +1,23 @@
+timestamp_iso,unix_s,monotonic_s,level,source,message
+2026-11-21T16:01:16.656-06:00,1795298476.656,9.100,INFO,main,"start host=amiraspi run_dir=/home/ishrat/data/run_20261121_160116 ntp_synced=no args={'outdir': '/home/ishrat/data', 'ngm_port': '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00', 'scd_interval': 2, 'duration': 0, 'no_scd': False, 'no_ngm': False, 'no_bus_recovery': False}"
+2026-11-21T16:01:16.935-06:00,1795298476.935,9.379,INFO,scd30,bus recovery available (sudo rule ok)
+2026-11-21T16:01:17.003-06:00,1795298477.003,9.447,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:01:17.003-06:00,1795298477.004,9.447,ERROR,scd30,"init failed (1): OSError(121, 'Remote I/O error')"
+2026-11-21T16:01:22.019-06:00,1795298482.020,14.463,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:01:22.030-06:00,1795298482.031,14.475,ERROR,scd30,"init failed (2): OSError(121, 'Remote I/O error')"
+2026-11-21T16:01:27.082-06:00,1795298487.083,19.526,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:01:27.087-06:00,1795298487.088,19.531,WARN,scd30,attempting I2C bus recovery
+2026-11-21T16:01:28.285-06:00,1795298488.285,20.729,ERROR,scd30,"bus recovery rc=3: bus released but 0x61 not answering, check sensor power and wiring [idle SDA=1 SCL=1 | pulses=0 after SDA=1 SCL=1 | 0x61 absent]"
+2026-11-21T16:01:28.293-06:00,1795298488.294,20.737,ERROR,scd30,"init failed (3): OSError(121, 'Remote I/O error')"
+2026-11-21T16:01:32.093-06:00,1795298492.094,24.537,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:01:33.298-06:00,1795298493.298,25.742,ERROR,scd30,"init failed (4): OSError(121, 'Remote I/O error')"
+2026-11-21T16:01:37.101-06:00,1795298497.101,29.545,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:01:38.303-06:00,1795298498.304,30.747,ERROR,scd30,"init failed (5): OSError(121, 'Remote I/O error')"
+2026-11-21T16:01:42.110-06:00,1795298502.110,34.554,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:01:43.315-06:00,1795298503.315,35.759,ERROR,scd30,"init failed (6): OSError(121, 'Remote I/O error')"
+2026-11-21T16:05:59.221-06:00,1795298759.222,39.564,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:06:00.427-06:00,1795298760.428,40.770,ERROR,scd30,"init failed (7): OSError(121, 'Remote I/O error')"
+2026-11-21T16:06:04.232-06:00,1795298764.233,44.575,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:06:05.438-06:00,1795298765.438,45.780,ERROR,scd30,"init failed (8): OSError(121, 'Remote I/O error')"
+2026-11-21T16:06:08.060-06:00,1795298768.060,48.402,INFO,main,"signal SIGTERM received, stopping"
+2026-11-21T16:06:08.080-06:00,1795298768.080,48.422,INFO,main,stop scd_ok=0 scd_err=0 scd_reinits=0 scd_bus_recoveries=1 ngm_ok=0 ngm_unparsed=0 ngm_reconnects=0 ntp_synced=yes

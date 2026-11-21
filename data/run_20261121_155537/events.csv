@@ -1,0 +1,27 @@
+timestamp_iso,unix_s,monotonic_s,level,source,message
+2026-11-21T15:55:38.107-06:00,1795298138.107,10.318,INFO,main,"start host=amiraspi run_dir=/home/ishrat/data/run_20261121_155537 ntp_synced=no args={'outdir': '/home/ishrat/data', 'ngm_port': '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00', 'scd_interval': 2, 'duration': 0, 'no_scd': False, 'no_ngm': False, 'no_bus_recovery': False}"
+2026-11-21T15:55:38.357-06:00,1795298138.358,10.568,INFO,scd30,bus recovery available (sudo rule ok)
+2026-11-21T15:55:38.395-06:00,1795298138.395,10.606,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:38.396-06:00,1795298138.397,10.607,ERROR,scd30,"init failed (1): OSError(121, 'Remote I/O error')"
+2026-11-21T15:55:43.405-06:00,1795298143.405,15.616,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:43.418-06:00,1795298143.419,15.629,ERROR,scd30,"init failed (2): OSError(121, 'Remote I/O error')"
+2026-11-21T15:55:48.416-06:00,1795298148.416,20.627,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:48.424-06:00,1795298148.425,20.635,WARN,scd30,attempting I2C bus recovery
+2026-11-21T15:55:50.515-06:00,1795298150.516,22.726,ERROR,scd30,"bus recovery rc=3: bus released but 0x61 not answering, check sensor power and wiring [idle SDA=1 SCL=1 | pulses=0 after SDA=1 SCL=1 | 0x61 absent]"
+2026-11-21T15:55:50.522-06:00,1795298150.523,22.733,ERROR,scd30,"init failed (3): OSError(121, 'Remote I/O error')"
+2026-11-21T15:55:53.434-06:00,1795298153.435,25.645,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:55:55.527-06:00,1795298155.528,27.738,ERROR,scd30,"init failed (4): OSError(121, 'Remote I/O error')"
+2026-11-21T15:55:58.446-06:00,1795298158.446,30.657,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:56:00.539-06:00,1795298160.539,32.750,ERROR,scd30,"init failed (5): OSError(121, 'Remote I/O error')"
+2026-11-21T15:56:03.456-06:00,1795298163.457,35.667,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:56:05.551-06:00,1795298165.551,37.762,ERROR,scd30,"init failed (6): OSError(121, 'Remote I/O error')"
+2026-11-21T15:56:08.465-06:00,1795298168.466,40.676,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:56:10.562-06:00,1795298170.563,42.773,ERROR,scd30,"init failed (7): OSError(121, 'Remote I/O error')"
+2026-11-21T15:56:13.475-06:00,1795298173.476,45.686,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:56:15.575-06:00,1795298175.575,47.786,ERROR,scd30,"init failed (8): OSError(121, 'Remote I/O error')"
+2026-11-21T15:56:18.488-06:00,1795298178.488,50.699,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:56:20.583-06:00,1795298180.584,52.794,WARN,scd30,attempting I2C bus recovery
+2026-11-21T15:56:21.640-06:00,1795298181.641,53.851,ERROR,scd30,"bus recovery rc=3: bus released but 0x61 not answering, check sensor power and wiring [idle SDA=1 SCL=1 | pulses=0 after SDA=1 SCL=1 | 0x61 absent]"
+2026-11-21T15:56:21.651-06:00,1795298181.651,53.862,ERROR,scd30,"init failed (9): OSError(121, 'Remote I/O error')"
+2026-11-21T15:56:23.499-06:00,1795298183.499,55.710,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T15:58:36.455-06:00,1795298316.455,58.867,ERROR,scd30,"init failed (10): OSError(121, 'Remote I/O error')"
