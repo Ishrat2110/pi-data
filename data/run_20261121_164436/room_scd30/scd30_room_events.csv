@@ -3,3 +3,4 @@ timestamp_iso,unix_s,monotonic_s,level,event,detail
 2026-11-21T16:44:41.094-06:00,1795301081.094,9.172,INFO,data_file,/home/ishrat/data/run_20261121_164436/room_scd30/scd30_room.csv
 2026-11-21T16:58:10.238-06:00,1795301890.239,604.805,INFO,status,samples=280 errors=0 reinits=0 recoveries=0
 2026-11-21T17:08:10.468-06:00,1795302490.469,1205.035,INFO,status,samples=561 errors=0 reinits=0 recoveries=0
+2026-11-21T17:18:10.695-06:00,1795303090.696,1805.262,INFO,status,samples=842 errors=0 reinits=0 recoveries=0
