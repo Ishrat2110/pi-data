@@ -1,0 +1,11 @@
+timestamp_iso,unix_s,monotonic_s,level,source,message
+2026-11-21T16:15:08.760-06:00,1795299308.760,8.265,INFO,main,"start host=amiraspi run_dir=/home/ishrat/data/run_20261121_161508 ntp_synced=no args={'outdir': '/home/ishrat/data', 'ngm_port': '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00', 'scd_interval': 2, 'duration': 0, 'no_scd': False, 'no_ngm': False, 'no_bus_recovery': False}"
+2026-11-21T16:15:09.046-06:00,1795299309.046,8.551,INFO,scd30,bus recovery available (sudo rule ok)
+2026-11-21T16:15:09.095-06:00,1795299309.095,8.600,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:15:09.140-06:00,1795299309.141,8.646,INFO,scd30,init ok fw=3.66 interval=2s asc=OFF
+2026-11-21T16:15:09.169-06:00,1795299309.169,8.674,INFO,scd30,first sample after start discarded (stale buffer)
+2026-11-21T16:15:14.106-06:00,1795299314.107,13.612,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:15:19.115-06:00,1795299319.115,18.620,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:15:24.155-06:00,1795299324.156,23.661,ERROR,ngm1,"open failed: SerialException(2, ""could not open port /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00'"")"
+2026-11-21T16:15:25.511-06:00,1795299325.511,25.016,INFO,main,"signal SIGTERM received, stopping"
+2026-11-21T16:15:25.532-06:00,1795299325.533,25.038,INFO,main,stop scd_ok=7 scd_err=0 scd_reinits=0 scd_bus_recoveries=0 ngm_ok=0 ngm_unparsed=0 ngm_reconnects=0 ntp_synced=no

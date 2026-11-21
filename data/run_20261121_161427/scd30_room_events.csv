@@ -11,3 +11,7 @@ iso_local,unix_s,monotonic_s,level,event,detail
 2026-11-21T16:15:33.730-06:00,1795299333.731,292.438,WARN,reinit,sensor not initialised
 2026-11-21T16:15:34.564-06:00,1795299334.565,293.272,ERROR,init_failed,attempt 6: [Errno 6] No such device or address
 2026-11-21T16:15:34.573-06:00,1795299334.574,293.281,WARN,recovery_skipped,/usr/local/sbin/i2c_recover_gpio.sh not installed
+2026-11-21T16:16:04.582-06:00,1795299364.583,323.290,WARN,reinit,sensor not initialised
+2026-11-21T16:16:05.420-06:00,1795299365.421,324.128,ERROR,init_failed,attempt 7: [Errno 6] No such device or address
+2026-11-21T16:16:05.430-06:00,1795299365.430,324.137,WARN,recovery_skipped,/usr/local/sbin/i2c_recover_gpio.sh not installed
+2026-11-21T16:15:07.820-06:00,1795299307.821,7.326,INFO,start,iface=i2c bus=3 interval_s=2 pid=703

@@ -1,0 +1,5 @@
+iso_local,unix_s,monotonic_s,level,event,detail
+2026-11-21T16:15:25.915-06:00,1795299325.916,25.421,INFO,start,iface=i2c bus=1 interval_s=2 pid=1683
+2026-11-21T16:15:27.993-06:00,1795299327.993,27.498,INFO,sensor_config,i2c-1 fw=3.66 asc=0 interval_s=2 altitude_m=0 temp_offset_c=0.00 pressure_comp=0
+2026-11-21T16:15:32.667-06:00,1795299332.667,32.172,INFO,data_file,/home/ishrat/data/room_only/run_20261121_161525/scd30_room.csv
+2026-11-21T16:17:51.614-06:00,1795299471.615,45.639,INFO,stop,samples=7 errors=0 reinits=0 recoveries=0
