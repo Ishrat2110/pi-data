@@ -1,0 +1,42 @@
+timestamp_iso,unix_s,monotonic_s,level,source,message
+2026-11-21T15:39:20.807-06:00,1795297160.808,7.758,INFO,main,"start host=amiraspi run_dir=/home/ishrat/data/run_20261121_153920 ntp_synced=no args={'outdir': '/home/ishrat/data', 'ngm_port': '/dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00', 'scd_interval': 2, 'duration': 0, 'no_scd': False, 'no_ngm': False, 'no_bus_recovery': False}"
+2026-11-21T15:39:21.075-06:00,1795297161.075,8.026,INFO,scd30,bus recovery available (sudo rule ok)
+2026-11-21T15:39:21.118-06:00,1795297161.118,8.069,ERROR,scd30,"init failed (1): OSError(121, 'Remote I/O error')"
+2026-11-21T15:39:21.122-06:00,1795297161.123,8.073,INFO,ngm1,port opened /dev/serial/by-id/usb-ATMEL_ASF_CDC_Virtual_Com-if00
+2026-11-21T15:39:26.133-06:00,1795297166.133,13.083,ERROR,scd30,"init failed (2): OSError(121, 'Remote I/O error')"
+2026-11-21T15:39:31.146-06:00,1795297171.146,18.097,WARN,scd30,attempting I2C bus recovery
+2026-11-21T15:39:32.355-06:00,1795297172.355,19.305,ERROR,scd30,"bus recovery rc=3: bus released but 0x61 not answering, check sensor power and wiring [idle SDA=1 SCL=1 | pulses=0 after SDA=1 SCL=1 | 0x61 absent]"
+2026-11-21T15:39:32.369-06:00,1795297172.370,19.320,ERROR,scd30,"init failed (3): OSError(121, 'Remote I/O error')"
+2026-11-21T15:39:37.384-06:00,1795297177.384,24.335,ERROR,scd30,"init failed (4): OSError(121, 'Remote I/O error')"
+2026-11-21T15:39:42.398-06:00,1795297182.399,29.349,ERROR,scd30,"init failed (5): OSError(121, 'Remote I/O error')"
+2026-11-21T15:39:47.408-06:00,1795297187.408,34.359,ERROR,scd30,"init failed (6): OSError(121, 'Remote I/O error')"
+2026-11-21T15:39:52.419-06:00,1795297192.420,39.370,ERROR,scd30,"init failed (7): OSError(121, 'Remote I/O error')"
+2026-11-21T15:39:57.430-06:00,1795297197.431,44.381,ERROR,scd30,"init failed (8): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:02.442-06:00,1795297202.443,49.393,WARN,scd30,attempting I2C bus recovery
+2026-11-21T15:40:03.498-06:00,1795297203.498,50.449,ERROR,scd30,"bus recovery rc=3: bus released but 0x61 not answering, check sensor power and wiring [idle SDA=1 SCL=1 | pulses=0 after SDA=1 SCL=1 | 0x61 absent]"
+2026-11-21T15:40:03.509-06:00,1795297203.509,50.460,ERROR,scd30,"init failed (9): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:08.513-06:00,1795297208.514,55.464,ERROR,scd30,"init failed (10): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:13.524-06:00,1795297213.525,60.475,ERROR,scd30,"init failed (11): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:18.535-06:00,1795297218.536,65.486,ERROR,scd30,"init failed (12): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:23.546-06:00,1795297223.547,70.497,ERROR,scd30,"init failed (13): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:28.558-06:00,1795297228.559,75.509,ERROR,scd30,"init failed (14): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:33.569-06:00,1795297233.570,80.520,ERROR,scd30,"init failed (15): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:38.579-06:00,1795297238.580,85.530,ERROR,scd30,"init failed (16): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:43.591-06:00,1795297243.592,90.542,ERROR,scd30,"init failed (17): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:48.602-06:00,1795297248.603,95.553,ERROR,scd30,"init failed (18): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:53.613-06:00,1795297253.614,100.564,ERROR,scd30,"init failed (19): OSError(121, 'Remote I/O error')"
+2026-11-21T15:40:58.625-06:00,1795297258.625,105.576,ERROR,scd30,"init failed (20): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:03.634-06:00,1795297263.634,110.585,WARN,scd30,attempting I2C bus recovery
+2026-11-21T15:41:04.692-06:00,1795297264.693,111.643,ERROR,scd30,"bus recovery rc=3: bus released but 0x61 not answering, check sensor power and wiring [idle SDA=1 SCL=1 | pulses=0 after SDA=1 SCL=1 | 0x61 absent]"
+2026-11-21T15:41:04.704-06:00,1795297264.704,111.654,ERROR,scd30,"init failed (21): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:09.709-06:00,1795297269.709,116.660,ERROR,scd30,"init failed (22): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:14.721-06:00,1795297274.721,121.672,ERROR,scd30,"init failed (23): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:19.732-06:00,1795297279.732,126.683,ERROR,scd30,"init failed (24): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:24.743-06:00,1795297284.744,131.694,ERROR,scd30,"init failed (25): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:29.754-06:00,1795297289.755,136.705,ERROR,scd30,"init failed (26): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:34.765-06:00,1795297294.766,141.716,ERROR,scd30,"init failed (27): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:39.778-06:00,1795297299.779,146.729,ERROR,scd30,"init failed (28): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:44.793-06:00,1795297304.793,151.744,ERROR,scd30,"init failed (29): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:49.804-06:00,1795297309.804,156.755,ERROR,scd30,"init failed (30): OSError(121, 'Remote I/O error')"
+2026-11-21T15:41:54.117-06:00,1795297314.118,161.068,INFO,main,"signal SIGTERM received, stopping"
+2026-11-21T15:41:54.870-06:00,1795297314.871,161.821,INFO,main,stop scd_ok=0 scd_err=0 scd_reinits=0 scd_bus_recoveries=3 ngm_ok=7 ngm_unparsed=0 ngm_reconnects=0 ntp_synced=yes
