@@ -1,19 +1,19 @@
 # amiraspi status
 
-Last check: **2026-11-22T08:33:11-06:00**
+Last check: **2026-11-22T08:43:11-06:00**
 
 This file is rewritten by the Pi on every sync (every 10 min). If the time above is more than about 20 minutes old, the Pi has stopped syncing.
 
 **Alerts:**
 
-- SCD30 STALE: no new data for 167 min (last write 2026-11-22T05:45:56-06:00)
+- SCD30 STALE: no new data for 177 min (last write 2026-11-22T05:45:56-06:00)
 
 | Item | State | Detail |
 |---|---|---|
 | Logger service | active | gaslogger.service |
-| SCD30 (CO2, T, RH) | STALE | no new data for 167 min (last write 2026-11-22T05:45:56-06:00) |
-| NGM-1 (CH4) | OK | last write 17s ago |
+| SCD30 (CO2, T, RH) | STALE | no new data for 177 min (last write 2026-11-22T05:45:56-06:00) |
+| NGM-1 (CH4) | OK | last write 8s ago |
 | Current run | | run_20261121_164436 |
-| Previous successful push | | 2026-11-22T08:23:12-06:00 (9 min ago) |
+| Previous successful push | | 2026-11-22T08:33:13-06:00 (9 min ago) |
 | Previous push error | | none |
-| Disk free | | 103567 MB |
+| Disk free | | 103566 MB |
