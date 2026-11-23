@@ -250,3 +250,5 @@ timestamp_iso,unix_s,monotonic_s,level,event,detail
 2026-11-23T09:58:34.021-06:00,1795449514.022,148228.588,INFO,status,samples=69393 errors=0 reinits=0 recoveries=0
 2026-11-23T10:08:34.104-06:00,1795450114.104,148828.671,INFO,status,samples=69674 errors=0 reinits=0 recoveries=0
 2026-11-23T10:18:34.248-06:00,1795450714.248,149428.815,INFO,status,samples=69955 errors=0 reinits=0 recoveries=0
+2026-11-23T10:27:07.472-06:00,1795451227.473,149942.039,INFO,stop,samples=70195 errors=0 reinits=0 recoveries=0
+2026-11-23T10:27:15.571-06:00,1795451235.572,7.787,INFO,start,iface=i2c bus=3 interval_s=2 pid=698
