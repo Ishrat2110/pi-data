@@ -2,3 +2,4 @@ timestamp_iso,unix_s,monotonic_s,level,event,detail
 2026-11-23T10:27:17.750-06:00,1795451237.751,9.965,INFO,sensor_config,i2c-3 fw=3.66 asc=0 interval_s=2 altitude_m=360 temp_offset_c=0.00 pressure_comp=0
 2026-11-23T10:27:20.132-06:00,1795451240.132,12.347,INFO,data_file,/home/ishrat/data/run_20261123_102715/room_scd30/scd30_room.csv
 2026-11-23T10:37:53.362-06:00,1795451873.362,607.908,INFO,status,samples=280 errors=0 reinits=0 recoveries=0
+2026-11-23T10:47:53.369-06:00,1795452473.369,1207.915,INFO,status,samples=561 errors=0 reinits=0 recoveries=0
