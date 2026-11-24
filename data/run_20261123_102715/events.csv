@@ -25,3 +25,4 @@ timestamp_iso,unix_s,monotonic_s,level,source,message
 2026-11-24T08:38:09.376-06:00,1795531089.376,79823.922,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
 2026-11-24T10:59:24.251-06:00,1795539564.251,88298.797,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
 2026-11-24T15:28:46.158-06:00,1795555726.158,104460.704,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
+2026-11-24T15:34:09.396-06:00,1795556049.397,104783.943,WARN,scd30,"read error 1: OSError(121, 'Remote I/O error')"
